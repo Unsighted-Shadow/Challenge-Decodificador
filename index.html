@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Encrypter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<header class="presentation" id="title">
+        <h1>
+            <img class="logo" src="assets/Logo.png" alt="Um logo de gatinho com rosas com um SH grande no meio"/>
+        O decodificador!
+            <img class="blind" src="assets/Blind.png" alt="Símbolo da cegueira"/>
+        </h1>    
+</header>
+<body>
+    <main class="style">
+        <section class="style__info">
+                <label class="text__style" for="input">Digite o texto a ser criptografado</label>
+                    <textarea class="text__area" name="text" id="message" wrap="hard" cols="30" rows="30"
+				        	placeholder="Insira apenas letras minúsculase vogais, sem acento e não insira caracteres especiais."></textarea>          
+           <div class="buttons__style">
+                <img class="runes" src="assets/Runas.png" alt="Jogo de runas vertical">
+                <button class="buttons" onclick="encrypt()" id="encrypt"> <img src="assets/icons8-lock-24.png"/>Codificar</button>
+                <button class="buttons" onclick="decrypt()" id="decrypt"> <img src="assets/icons8-open-lock-24.png"/>Decodificar</button>
+                <button class="buttons" onclick="clearText()" id="clear"> <img src="assets/icons8-eraser-24.png"/>Limpar</button>
+                <button class="buttons" onclick="copyText()" id="copy"> <img src="assets/icons8-copy-25.png"/>Copiar</button>
+            </div>
+        </section>
+        </main>
+</body>
+<footer class="foot">Desenvolvido por Anna Carolina AKA Unsighted Shadow</footer>
+</html>

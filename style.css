@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.presentation {
+    background-color: #8f827c;
+    color: #FFFAF2;
+    padding: 2%;
+    font-size: 1.5rem;
+    font-family: 'Sixtyfour', sans-serif;
+    text-align: center;
+}
+
+.logo {
+    height: 15%;
+    width: 15%;;
+}
+
+.blind {
+    height: 10%;
+    width: 10%;
+}
+
+.style {
+    display: block;
+    object-fit: fill;
+}
+
+.style__info {
+    background-color: #ffd2d7;
+    gap: 10px;
+    padding-left: 4%;
+    text-align: left;
+    display: block;
+}
+
+.text__style {
+    margin-bottom: 10%;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #3e0b15;
+}
+
+.text__area {
+    border: 5px solid #8f827c;
+    display: flex;
+    justify-content: left;
+    height: 20%;
+    resize: none;
+    width: 60%;
+    font-size: 1.125rem;
+    font-family: 'Play Display', sans-serif;
+    font-weight: 400;
+    padding-left: 4%;
+}
+
+.buttons__style {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
+
+.buttons {
+    padding-bottom: 3%;
+    height: 15px;
+    width: 10%;
+    color: #3e0b15;
+    background-color: transparent;
+    border: 5px solid #3e0b15;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    background-color: #ffa4f3;
+}
+
+.foot {
+    padding: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 500;
+    color: #FFFAF2;
+    background-color: #8f827c;
+}
